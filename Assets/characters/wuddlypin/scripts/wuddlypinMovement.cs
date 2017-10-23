@@ -48,7 +48,7 @@ public class wuddlypinMovement : MonoBehaviour {
         DRAG_X = ACCELERATION_X / 2f;
         MAX_MOVEMENT_SPEED = 1.2f;
         VELOCITY_X = 0f;
-        JUMP_FORCE = .8f;
+        JUMP_FORCE = 2f;
         GROUNDED = false;
     }
 
