@@ -1,0 +1,1109 @@
+fileFormatVersion: 2
+guid: 4e39caaf8abc56f4b86af8cba046c75b
+timeCreated: 1508705158
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wuddlypin_0
+    21300002: wuddlypin_1
+    21300004: wuddlypin_2
+    21300006: wuddlypin_3
+    21300008: wuddlypin_4
+    21300010: wuddlypin_5
+    21300012: wuddlypin_6
+    21300014: wuddlypin_7
+    21300016: wuddlypin_8
+    21300018: wuddlypin_9
+    21300020: wuddlypin_10
+    21300022: wuddlypin_11
+    21300024: wuddlypin_12
+    21300026: wuddlypin_13
+    21300028: wuddlypin_14
+    21300030: wuddlypin_15
+    21300032: wuddlypin_16
+    21300034: wuddlypin_17
+    21300036: wuddlypin_18
+    21300038: wuddlypin_19
+    21300040: wuddlypin_20
+    21300042: wuddlypin_21
+    21300044: wuddlypin_22
+    21300046: wuddlypin_23
+    21300048: wuddlypin_24
+    21300050: wuddlypin_25
+    21300052: wuddlypin_26
+    21300054: wuddlypin_27
+    21300056: wuddlypin_28
+    21300058: wuddlypin_29
+    21300060: wuddlypin_30
+    21300062: wuddlypin_31
+    21300064: wuddlypin_32
+    21300066: wuddlypin_33
+    21300068: wuddlypin_34
+    21300070: wuddlypin_35
+    21300072: wuddlypin_36
+    21300074: wuddlypin_37
+    21300076: wuddlypin_38
+    21300078: wuddlypin_39
+    21300080: wuddlypin_40
+    21300082: wuddlypin_41
+    21300084: wuddlypin_42
+    21300086: wuddlypin_43
+    21300088: wuddlypin_44
+    21300090: wuddlypin_45
+    21300092: wuddlypin_46
+    21300094: wuddlypin_47
+    21300096: wuddlypin_48
+    21300098: wuddlypin_49
+    21300100: wuddlypin_50
+    21300102: wuddlypin_51
+    21300104: wuddlypin_52
+    21300106: wuddlypin_53
+    21300108: wuddlypin_54
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wuddlypin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_6
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_7
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_9
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 90
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_17
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 72
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_21
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_24
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_25
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_28
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 54
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 36
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 36
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_33
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_38
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_40
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_41
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_43
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_44
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_45
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 18
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_47
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_48
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_53
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: wuddlypin_54
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: 28, y: -37}
+      - {x: -54, y: -37}
+      - {x: -66, y: -38}
+      - {x: -66, y: -54}
+      - {x: 28, y: -54}
+      - {x: 35, y: -53}
+      - {x: 35, y: -42}
+      - {x: 34, y: -39}
+    - - {x: -62, y: -23}
+      - {x: -66, y: -24}
+      - {x: -66, y: -38}
+      - {x: 66, y: -38}
+      - {x: 66, y: -23}
+    - - {x: -57, y: -5}
+      - {x: -66, y: -7}
+      - {x: -66, y: -20}
+      - {x: -25, y: -20}
+      - {x: -21, y: -19}
+      - {x: -21, y: -5}
+    - - {x: -66, y: 31}
+      - {x: -66, y: -2}
+      - {x: 37, y: -2}
+      - {x: 44, y: 2}
+      - {x: 44, y: 19}
+      - {x: 32, y: 31}
+    - - {x: -45, y: 30}
+      - {x: -45, y: 19}
+      - {x: -42, y: 17}
+      - {x: -23, y: 17}
+      - {x: -22, y: 18}
+      - {x: -22, y: 29}
+      - {x: -24, y: 30}
+    - - {x: -63, y: 48}
+      - {x: -66, y: 46}
+      - {x: -66, y: 34}
+      - {x: -11, y: 34}
+      - {x: -11, y: 46}
+      - {x: -12, y: 48}
+    - - {x: -10, y: 48}
+      - {x: -11, y: 44}
+      - {x: -11, y: 35}
+      - {x: -10, y: 34}
+      - {x: 44, y: 34}
+      - {x: 44, y: 45}
+      - {x: 43, y: 48}
+    - - {x: 44, y: 48}
+      - {x: 44, y: 35}
+      - {x: 45, y: 34}
+      - {x: 66, y: 34}
+      - {x: 66, y: 46}
+      - {x: 65, y: 48}
+    physicsShape:
+    - - {x: 23, y: -52}
+      - {x: 35, y: -52}
+      - {x: 35, y: -42}
+      - {x: 34, y: -39}
+      - {x: 23, y: -38}
+      - {x: 21, y: -37}
+      - {x: 11, y: -37}
+      - {x: 9, y: -44}
+      - {x: 2, y: -44}
+      - {x: -3, y: -37}
+      - {x: -4, y: -37}
+      - {x: -12, y: -39}
+      - {x: -19, y: -41}
+      - {x: -38, y: -41}
+      - {x: -54, y: -39}
+      - {x: -66, y: -40}
+      - {x: -66, y: -52}
+      - {x: -64, y: -54}
+      - {x: 23, y: -54}
+    - - {x: -4, y: -38}
+      - {x: 10, y: -37}
+      - {x: 21, y: -36}
+      - {x: 23, y: -38}
+      - {x: 64, y: -38}
+      - {x: 66, y: -36}
+      - {x: 66, y: -25}
+      - {x: 65, y: -23}
+      - {x: 53, y: -23}
+      - {x: 49, y: -24}
+      - {x: 30, y: -23}
+      - {x: -46, y: -23}
+      - {x: -50, y: -24}
+      - {x: -58, y: -23}
+      - {x: -61, y: -23}
+      - {x: -66, y: -25}
+      - {x: -66, y: -38}
+      - {x: -48, y: -38}
+      - {x: -43, y: -36}
+      - {x: -29, y: -36}
+      - {x: -16, y: -38}
+    - - {x: -21, y: -5}
+      - {x: -57, y: -5}
+      - {x: -66, y: -7}
+      - {x: -66, y: -20}
+      - {x: -25, y: -20}
+      - {x: -21, y: -19}
+    - - {x: -9, y: 2}
+      - {x: 0, y: -2}
+      - {x: 15, y: -2}
+      - {x: 20, y: -1}
+      - {x: 37, y: -1}
+      - {x: 44, y: 2}
+      - {x: 44, y: 17}
+      - {x: 36, y: 21}
+      - {x: 21, y: 19}
+      - {x: 24, y: 27}
+      - {x: 22, y: 31}
+      - {x: 3, y: 31}
+      - {x: -1, y: 29}
+      - {x: -10, y: 26}
+      - {x: -13, y: 31}
+      - {x: -24, y: 28}
+      - {x: -22, y: 20}
+      - {x: -42, y: 18}
+      - {x: -46, y: 31}
+      - {x: -53, y: 31}
+      - {x: -55, y: 30}
+      - {x: -56, y: 25}
+      - {x: -66, y: 26}
+      - {x: -66, y: 16}
+      - {x: -55, y: 16}
+      - {x: -56, y: 7}
+      - {x: -66, y: 8}
+      - {x: -66, y: -2}
+      - {x: -11, y: -2}
+    - - {x: -5, y: 12}
+      - {x: -10, y: 14}
+      - {x: -15, y: 19}
+      - {x: -17, y: 17}
+      - {x: -13, y: 19}
+      - {x: -13, y: 18}
+      - {x: -10, y: 15}
+      - {x: -1, y: 15}
+      - {x: 2, y: 18}
+      - {x: 1, y: 20}
+      - {x: -1, y: 17}
+      - {x: 0, y: 10}
+      - {x: -1, y: 11}
+    - - {x: 13, y: 19}
+      - {x: 13, y: 18}
+      - {x: 14, y: 17}
+      - {x: 12, y: 18}
+      - {x: 11, y: 17}
+    - - {x: -45, y: 30}
+      - {x: -45, y: 19}
+      - {x: -42, y: 17}
+      - {x: -23, y: 17}
+      - {x: -22, y: 18}
+      - {x: -22, y: 29}
+      - {x: -24, y: 30}
+    - - {x: -23, y: 37}
+      - {x: -16, y: 34}
+      - {x: -11, y: 36}
+      - {x: -11, y: 43}
+      - {x: -12, y: 47}
+      - {x: -18, y: 48}
+      - {x: -62, y: 48}
+      - {x: -66, y: 46}
+      - {x: -66, y: 37}
+      - {x: -63, y: 34}
+      - {x: -47, y: 34}
+      - {x: -43, y: 36}
+      - {x: -34, y: 36}
+    - - {x: 41, y: 34}
+      - {x: 44, y: 35}
+      - {x: 44, y: 44}
+      - {x: 41, y: 48}
+      - {x: -9, y: 48}
+      - {x: -11, y: 44}
+      - {x: -11, y: 37}
+      - {x: -5, y: 34}
+      - {x: 2, y: 34}
+      - {x: 10, y: 35}
+      - {x: 25, y: 34}
+    - - {x: 44, y: 48}
+      - {x: 44, y: 35}
+      - {x: 45, y: 34}
+      - {x: 66, y: 34}
+      - {x: 66, y: 46}
+      - {x: 65, y: 48}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
