@@ -20,23 +20,25 @@ public class wuddlypinMovement : MonoBehaviour {
         RIGHT = 1
     }
     private DIRECTION FACING;
+    private STATE MY_STATE;
 
-    private float JUMP_FORCE;
-    private bool GROUNDED;
+    public float JUMP_FORCE;
+    public bool GROUNDED;
 
-    private bool IS_RUNNING = false;
-    private bool CAN_RUN    = true;
+    public bool IS_RUNNING = false;
+    public bool CAN_RUN    = true;
+    private bool IS_JUMPING = false;
 
-    private float MAX_MOVEMENT_SPEED;
-    private float VELOCITY_X;
-    private float ACCELERATION_X;
-    private float DRAG_X;
-    private float VELOCITY_Y;
+    public float MAX_MOVEMENT_SPEED;
+    public float VELOCITY_X;
+    public float ACCELERATION_X;
+    public float DRAG_X;
+    public float VELOCITY_Y;
 
     //CONTROLS
     public static KeyCode LEFT = KeyCode.LeftArrow;
     public static KeyCode RIGHT = KeyCode.RightArrow;
-    public static KeyCode JUMP = KeyCode.Space;
+    public static KeyCode JUMP = KeyCode.UpArrow;
     public static KeyCode WHACK = KeyCode.S;
 
     // Use this for initialization
@@ -44,11 +46,11 @@ public class wuddlypinMovement : MonoBehaviour {
     {
         RIGID = GetComponent<Rigidbody2D>();
         FACING = DIRECTION.LEFT;
-        ACCELERATION_X = .3f;
-        DRAG_X = ACCELERATION_X / 2f;
-        MAX_MOVEMENT_SPEED = 1.2f;
+        ACCELERATION_X = 2f;
+        DRAG_X = ACCELERATION_X / 5f;
+        MAX_MOVEMENT_SPEED = 8f;
         VELOCITY_X = 0f;
-        JUMP_FORCE = 2f;
+        JUMP_FORCE = 12f;
         GROUNDED = false;
     }
 
@@ -70,6 +72,7 @@ public class wuddlypinMovement : MonoBehaviour {
         {
             if (Input.GetKeyDown(JUMP))
             {
+                IS_JUMPING = true;
                 RIGID.velocity = new Vector2(RIGID.velocity.x, JUMP_FORCE);
             }
         }
@@ -169,6 +172,7 @@ public class wuddlypinMovement : MonoBehaviour {
                 if (p.normal.y > 0)
                 {
                     GROUNDED = true;
+                    IS_JUMPING = false;
                 }
             }
         }
@@ -188,4 +192,50 @@ public class wuddlypinMovement : MonoBehaviour {
         }
 
     }
+
+    public STATE get_state()
+    {
+        return this.MY_STATE;
+    }
+
+    public void set_state(STATE st)
+    {
+        this.MY_STATE = st;
+    }
+
+    public float get_velocity_x()
+    {
+        return this.VELOCITY_X;
+    }
+
+    public void set_velocity_x(float val)
+    {
+        this.VELOCITY_X = val;
+    }
+
+    public float get_velocity_y()
+    {
+        return RIGID.velocity.y;
+    }
+
+    public void set_velocity_y(float val)
+    {
+        this.VELOCITY_Y = val;
+    }
+
+    public DIRECTION get_facing()
+    {
+        return this.FACING;
+    }
+
+    public bool is_jumping()
+    {
+        return this.IS_JUMPING;
+    }
+
+    public bool is_grounded()
+    {
+        return this.GROUNDED;
+    }
+
 }
