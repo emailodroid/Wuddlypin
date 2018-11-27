@@ -8,28 +8,50 @@ public class wuddlypinAnimation : MonoBehaviour {
     private wuddlypinMovement wuddly;
     private string animation;
 
+    private bool idled;
+
     // Use this for initialization
     void Start () {
         wuddlyAnimator = GetComponent<Animator>();
         wuddly = GetComponent<wuddlypinMovement>();
 
         animation = "idle";
+        idled = true;
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        animation = "idle";
-
-        if (wuddly.get_velocity_x() != 0)
+        if (wuddly.is_grounded() == true)
         {
+            if(idled == false)
+            {
+                animation = "landed";
+            } else
+            {
+                animation = "idle";
+            }
+
+            if(this.wuddlyAnimator.GetCurrentAnimatorStateInfo(0).IsName("landed") && (this.wuddlyAnimator.GetCurrentAnimatorStateInfo(0).length - this.wuddlyAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime) < -1 )
+            {
+                idled = true;
+                animation = "idle";
+            }
+        }
+
+        if (Mathf.Abs(wuddly.get_velocity_x()) > 0.1)
+        {
+            if(Mathf.Abs(wuddly.get_velocity_x()) > 7.5)
+            {
+                idled = false;
+            }
             animation = "run";
         }
 
-        Debug.Log(wuddly.get_velocity_y());
-
         if(wuddly.is_grounded() == false)
         {
+            idled = false;
+
             if (wuddly.get_velocity_y() > 0)
             {
                 animation = "jumpStart";
@@ -40,7 +62,29 @@ public class wuddlypinAnimation : MonoBehaviour {
             }
         }
 
+
         animate(animation);
+    }
+
+    IEnumerator onComplete()
+    {
+
+        while (this.wuddlyAnimator.GetCurrentAnimatorStateInfo(0).IsName("landed"))
+        {
+            Debug.Log("Animation in progress!");
+            yield return null;
+        }
+
+        // this will get here when kickedInHead is false
+        Debug.Log("Animation complete!");
+    }
+
+    private IEnumerator WaitForAnimation(Animation animation)
+    {
+        do
+        {
+            yield return null;
+        } while (animation.isPlaying);
     }
 
     private void animate(string a)

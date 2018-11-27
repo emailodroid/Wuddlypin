@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class wuddlypinMovement : MonoBehaviour {
 
@@ -24,9 +25,10 @@ public class wuddlypinMovement : MonoBehaviour {
 
     public float JUMP_FORCE;
     public bool GROUNDED;
+    public bool LANDING;
 
     public bool IS_RUNNING = false;
-    public bool CAN_RUN    = true;
+    public bool CAN_MOVE = false;
     private bool IS_JUMPING = false;
 
     public float MAX_MOVEMENT_SPEED;
@@ -41,24 +43,31 @@ public class wuddlypinMovement : MonoBehaviour {
     public static KeyCode JUMP = KeyCode.UpArrow;
     public static KeyCode WHACK = KeyCode.S;
 
+    //EFFECTS
+    public ParticleSystem playerDust;
+
     // Use this for initialization
     void Start ()
     {
         RIGID = GetComponent<Rigidbody2D>();
         FACING = DIRECTION.LEFT;
-        ACCELERATION_X = 2f;
-        DRAG_X = ACCELERATION_X / 5f;
-        MAX_MOVEMENT_SPEED = 8f;
+        ACCELERATION_X = .5f;
+        DRAG_X = ACCELERATION_X / 2f;
+        MAX_MOVEMENT_SPEED = 7f;
         VELOCITY_X = 0f;
         JUMP_FORCE = 12f;
         GROUNDED = false;
+        LANDING = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        movement();
-        jump();
+        if (CAN_MOVE)
+        {
+            movement();
+            jump();
+        }
     }
 
     void FixedUpdate()
@@ -70,17 +79,20 @@ public class wuddlypinMovement : MonoBehaviour {
     {
         if (GROUNDED)
         {
-            if (Input.GetKeyDown(JUMP))
+            if (Input.GetKeyDown(JUMP) || CrossPlatformInputManager.GetButtonDown("Jump"))
             {
+                playerDust.Emit(3);
                 IS_JUMPING = true;
+                LANDING = false;
                 RIGID.velocity = new Vector2(RIGID.velocity.x, JUMP_FORCE);
             }
         }
         else
         {
+
             if (RIGID.velocity.y > 0)
             {
-                if (Input.GetKeyUp(JUMP))
+                if (Input.GetKeyUp(JUMP) || CrossPlatformInputManager.GetButtonUp("Jump"))
                 {
                     RIGID.velocity = new Vector2(RIGID.velocity.x, RIGID.velocity.y / 2f);
                 }
@@ -91,6 +103,8 @@ public class wuddlypinMovement : MonoBehaviour {
     private void movement()
     {
         VELOCITY_X += ACCELERATION_X * controllInput();
+
+        VELOCITY_X += (CrossPlatformInputManager.GetAxis("Horizontal")/2) * MAX_MOVEMENT_SPEED;
 
         if (Mathf.Abs(VELOCITY_X) > MAX_MOVEMENT_SPEED)
         {
@@ -106,6 +120,7 @@ public class wuddlypinMovement : MonoBehaviour {
                 VELOCITY_X = 0f;
             }
         }
+        flipControl();
     }
 
     public void flip()
@@ -113,6 +128,26 @@ public class wuddlypinMovement : MonoBehaviour {
         Vector2 SCALE = transform.localScale;
         SCALE = new Vector2(SCALE.x * -1, SCALE.y);
         transform.localScale = SCALE;
+    }
+
+    private void flipControl()
+    {
+        if(CrossPlatformInputManager.GetAxis("Horizontal") > 0 || Input.GetKeyDown(RIGHT))
+        {
+            if (FACING != DIRECTION.RIGHT)
+            {
+                FACING = DIRECTION.RIGHT;
+                flip();
+            }
+        }
+        if (CrossPlatformInputManager.GetAxis("Horizontal") < 0 || Input.GetKeyDown(LEFT))
+        {
+            if (FACING != DIRECTION.LEFT)
+            {
+                FACING = DIRECTION.LEFT;
+                flip();
+            }
+        }
     }
 
     private int controllInput()
@@ -171,6 +206,14 @@ public class wuddlypinMovement : MonoBehaviour {
 
                 if (p.normal.y > 0)
                 {
+                    //LANDING = false;
+
+                    if(GROUNDED == false)
+                    {
+                        playerDust.Emit(3);
+                        LANDING = true;
+                    }
+
                     GROUNDED = true;
                     IS_JUMPING = false;
                 }
@@ -205,7 +248,7 @@ public class wuddlypinMovement : MonoBehaviour {
 
     public float get_velocity_x()
     {
-        return this.VELOCITY_X;
+        return this.RIGID.velocity.x;
     }
 
     public void set_velocity_x(float val)
@@ -236,6 +279,11 @@ public class wuddlypinMovement : MonoBehaviour {
     public bool is_grounded()
     {
         return this.GROUNDED;
+    }
+
+    public bool is_landing()
+    {
+        return this.LANDING;
     }
 
 }
